@@ -1,0 +1,114 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
+
+.parallax {
+  background-image: url("https://st2.depositphotos.com/2640455/11138/i/950/depositphotos_111380860-stock-photo-woman-presenting-copy-space-with.jpg");
+  height: 720px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-2 {
+  background-image: url("https://cdn.startupbros.com/wp-content/uploads/2013/07/steve-jobs.jpg");
+  height: 500px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topcontainer {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.tophello {
+  position: absolute;
+  top: 30px;
+  left: 500px;
+  font-size: 200px;
+  color: #FEF9C7;
+  text-shadow: 2px 2px 5px black;
+}
+
+.mynameis {
+  position: absolute;
+  top: 270px;
+  left: 550px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black
+}
+
+.name {
+  position: absolute;
+  top: 300px;
+  left: 517px;
+  font-size: 60px;
+  color: #95EDD7;
+  text-shadow: 2px 2px 10px black;
+}
+
+
+.Kay {
+  position: absolute;
+  top: 370px;
+  left: 830px;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px black
+}
+
+.menu {
+  height: 77px;
+  width: 100%;
+  background-color: #026670;
+  float: center;
+  overflow: hidden;
+  
+}
+
+.menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 36px;
+}
+
+.menu a:hover {
+  background-color: #9fedd7;
+  color: #026670;
+}
+
+.menu a.active {
+  background-color: #fef9c7;
+  color: #026670;
+}
+
+#intro {
+  background-color: #95EDD7;
+  color: #026670;
+  margin: 50px;
+}
