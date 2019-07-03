@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
 
+/* Colors: 
+  #026670 (dark blue)
+  #9fedd7 (light blue/ green)
+  #fef9c7 (light yellow)
+  #fce181 (dark yellow)
+  #edeae5 (gray) 
+  #444 (white) */
+
 html {
   height: 100%;
 }
@@ -30,6 +38,16 @@ h1 {
 
 .parallax-2 {
   background-image: url("https://cdn.startupbros.com/wp-content/uploads/2013/07/steve-jobs.jpg");
+  height: 720px;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-3 {
+  background-image: url("https://theportraitmasters.com/wp-content/uploads/2019/06/LJ2_HeroV2_1280.jpg");
   height: 720px;
   width: 100%;
   background-attachment: fixed;
@@ -85,7 +103,7 @@ h1 {
   background-color: #026670;
   float: center;
   overflow: hidden;
-  
+
 }
 
 .menu a {
@@ -129,4 +147,33 @@ h1 {
   font-size:20px;
   text-align: center;
   font-weight: bold;
+}
+
+#footerblurb {
+  background: #026670;
+  color: #edeae5;
+}
+
+#footerblurb h2 {
+  font-size: 20px;
+  padding: 0px 24px;
+  text-align: center;
+}
+
+#footerblurb .column {
+  float: left;
+  margin: 0px;
+  text-align: left;
+  width: 275px;
+  font-size: 15px;
+  padding: 0px;
+}
+
+.clr {
+  clear: both;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-size: 0px;
+  line-height: 0px;
 }
