@@ -10,6 +10,8 @@
   #edeae5 (gray) 
   #444 (white) */
 
+/* Index and general styling */
+
 html {
   height: 100%;
 }
@@ -134,7 +136,7 @@ h1 {
   text-align:justify;
 }
 
-.story {
+.paragraph {
   background-color: #fef9c7;
   color: #026670;
   margin: 50px;
@@ -177,3 +179,18 @@ h1 {
   font-size: 0px;
   line-height: 0px;
 }
+
+a {
+  text-decoration: none;
+  color: #edeae5;
+}
+
+.line {
+  align-content: center;
+  height: 5px;
+  background-color: #fce181;
+  margin: 0px 100px;
+}
+
+/* expertise.html specific styling */
+
