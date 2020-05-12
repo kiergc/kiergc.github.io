@@ -1,217 +1,110 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
-@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kay GC Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
 
-/* Colors: 
-  #026670 (dark blue)
-  #9fedd7 (light blue/ green)
-  #fef9c7 (light yellow)
-  #fce181 (dark yellow)
-  #edeae5 (gray) 
-  #444 (white) */
+  <body>
+    <a id="li-top"></a>
+    <div class="container">
+      <div class="parallax">
+        <div class="tophello">HELLO!</div>
+        <div class="mynameis"> My name is </div>
+        <div class="name">Kiernynn Grantham-Crum</div>
+        <div class="Kay"> but you can call me Kay!</div>
+      </div>
+    </div>
+    
+    <div class="menu">
+      <a class="active" href="home.html">Home</a>
+      <a href="expertise.html">Expertise</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact Me</a>
+    </div>
+    
+    
+    <a id="li-intro"></a>
+    <div id="intro">
+      <p>
+        Welcome to my website! I'm glad you could join me!
+        <br><br>
+        As I mentioned above, my name is Kiernynn Grantham-Crum, but you can call me Kay, since my name is a bit hard to pronounce. Whether you're a recruiter, interviewer, manager, my mom (hi mom!) or just someone who's curious, I invite you to explore the links in the bar above. A little further below will be my life's story (at least so far) as it relates to technology, learning, and advocacy. Thank you for your interest, and I wish you happy clicking!
+        <br><br>
+        -Kay
+      </p>
+    </div>
 
-/* Index and general styling */
+    <div class="parallax-2"></div>
 
-
-html {
-  height: 100%;
-}
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 18px;
-  margin: 0;
-  color: #444;
-}
-
-h1 {
-  font-family: "Merriweather", serif;
-  font-size: 32px;
-}
-
-.parallax {
-  background-image: url("https://cdn.pixabay.com/photo/2015/03/26/09/46/golden-gate-bridge-690264_1280.jpg");
-  height: 720px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-2 {
-  background-image: url("https://images.unsplash.com/photo-1526404423292-15db8c2334e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-  height: 720px;
-  width: 100%;
-  background-transform: rotate(90deg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-3 {
-  background-image: url("https://images.unsplash.com/photo-1517394282846-491ed4229ccd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
-  height: 720px;
-  width: 100%;
-  background-attachment: fixed;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-expertise {
-  background-image: url("https://images.unsplash.com/photo-1574125053225-146d962568ee?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1334&q=80");
-  height: 720px;
-  background-attachment: fixed;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-.tophello {
-  position: absolute;
-  top: 30px;
-  left: 500px;
-  font-size: 200px;
-  color: #FEF9C7;
-  text-shadow: 2px 2px 5px black;
-}
-
-.mynameis {
-  position: absolute;
-  top: 270px;
-  left: 550px;
-  font-size: 30px;
-  text-shadow: 2px 2px 5px black
-}
-
-.name {
-  position: absolute;
-  top: 300px;
-  left: 517px;
-  font-size: 60px;
-  color: #95EDD7;
-  text-shadow: 2px 2px 10px black;
-}
-
-
-.Kay {
-  position: absolute;
-  top: 370px;
-  left: 830px;
-  font-size: 30px;
-  text-shadow: 2px 2px 5px black
-}
-
-.menu {
-  height: 50px;
-  width: 100%;
-  background-color: #026670;
-  float: center;
-  overflow: hidden;
-
-}
-
-.menu a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;
-  font-size: 20px;
-}
-
-.menu a:hover {
-  background-color: #9fedd7;
-  color: #026670;
-}
-
-.menu a.active {
-  background-color: #fef9c7;
-  color: #026670;
-}
-
-#intro {
-  font-family: 'Oswald', sans-serif;
-  background-opacity: .5;
-  background-color: RGB(255, 255, 255, .75);
-  color: #026670;
-  margin: 10px 50px 10px;
-  font-size:25px;
-  padding:10px 50px 10px;
-  text-align:justify;
-}
-
-.centered {
-  position: absolute;
-  top: 450px;
-  left: 600px;
-  transform: translate(-50%, -50%);
-}
-
-.paragraph {
-  background-color: #fef9c7;
-  color: #026670;
-  margin: 25px 150px 25px;
-  font-size:15px;
-  padding:10px 50px 10px;
-  text-align: justify;
-}
-
-.story #title {
-  font-size:20px;
-  text-align: center;
-  font-weight: bold;
-}
-
-#footerblurb {
-  background: #026670;
-  color: #edeae5;
-}
-
-#footerblurb h2 {
-  font-size: 20px;
-  padding: 0px 24px;
-  text-align: center;
-}
-
-#footerblurb .column {
-  float: left;
-  margin: 0px;
-  text-align: left;
-  width: 250px;
-  font-size: 15px;
-  padding: 0px;
-}
-
-.clr {
-  clear: both;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  font-size: 0px;
-  line-height: 0px;
-}
-
-a {
-  text-decoration: none;
-  color: #edeae5;
-}
-
-.line {
-  align-content: center;
-  height: 5px;
-  background-color: #D3D3D3;
-  margin: 25px 100px 25px;
-}
-
-/* expertise.html specific styling */
-
+    <a id="li-story"></a>
+    <div class="paragraph">
+      <p id="title">My Story</p>
+      <p>
+        I have the sterotypical story of a nerd: grew up in a medium-small conservative town, had few close friends, was a social outcast, and spent most of the day holed up in my room with a computer. However, I wasn't originally into technology! I wanted to be an artist, and spent most of my childhood drawing. What started me down the path of being a tech geek was the timing: I started high school in 2012, when YouTube really kicked off, and it became the social platform for all "weirdos". Now, instead of drawing, I would watch videos all day, mostly gamers.
+        <br><br>
+        I also grew up queer. My sister came out early in my life, and I came out myself about 10 years later. Of course, living in a small town, this just increased my being a social outcast (it was likely what fueled most of it). But I was extremely lucky: my family is as supportive as you can get! We joined groups at the LGBTQ+ center in Hillcrest, and at home, my being queer wasn't treated as an abnormality. Through this support and exposure to the community, I became an advocate for LGBTQ+ rights in my school. I bugged the principal so often about minority rights that she (begrudgingly) gave me a Peace and Diversity award when I graduated. I was motivated by the fact that, though there were other queer and minority students at my school, I was the only one fortunate enough to be able to be this loud, abrasive, will-not-back-down proponent of our rights; there were others like me that needed support and I was the only one who could speak up about it with out fear of being kicked out of my home.
+        <br><br>
+        However, my actions weren't entirely selfless. Of course, I benefitted from the rights we gained as much as anyone else in the community, but more so, it was a shield for me. As I have mentioned already several times before, I didn't get along well with many people, but more than that, I was often the target of severe bullying. I was even victimized by my fellow band nerds! When band kids come after you, you know you're at the bottom of the totem pole. But, advocacy helped me stay strong. I knew I would face adversity, that was the whole reason I needed to stand up and fight, and knowing I was actively pushing back against my enemies gave me a strong armor made of pride.
+        <br><br>
+        In this way, advocacy became part of my identity.
+        <br><br>
+        Fast forward a year into high school and my self-inflicted quarantine to my room with my laptop and a horde of junk food, my mom heard about this free LGBTQ+ tech camp in San Francisco held by the non-profit Maven Youth. At this point, I still thought I was going to be an artist, though now maybe I wanted to do graphic design for video games. Well, here was a tech camp in the land of the gays that would teach me to do just that! At just 15, I set off for the two-week experience that would change my life.
+        <br><br>
+        The camp was wonderful! I couldn't stop marveling at the city, all the companies we visited, and all the employees of those companies that were as queer as I was. By the end of it, I had declared I would go to college at Cal, and I would major in Computer Science. 
+        <br><br>
+        The people of my town were less confident in me, and I often got told I couldn't get into Cal and should set my sights lower. After I got this said to me enough, I started to lose confidence a little, and now, whenever anyone asked me where I wanted to go to college, I told them... "Oxford"! That's right, I upped it. Of course I wasn't going to let them tell me what I was worth! I had lived my whole life with people telling me I wasn't good enough and that I was going to hell. They didn't know anything about me, so why would I let them choose my future?
+        <br><br>
+        Ambition and spite became two of my most important values; ambition to dream of the craziest goals, and spite to help me accomplish them when people told me I couldn't do it. And this, my dear friends, is where I admit to you I am a Slytherin.
+        <br><br>
+        I kept going to the camp, year after year. The second year I went, I was asked by the CEO of Maven Youth, Monica Arrambide, to attend the 2015 White House LGBTQ+ Tech and Innovation Summit. I went with some other campers, friends that have since become my second family. We participated in the Maven Youth 2015 Game Jam with our project, Wizards vs. Scientists, and won, and then later presented it at GaymerX 2016.
+        <br><br>
+        The next year of camps, I was asked to be a youth leader. Until this point, each workshop had been hosted by a volunteer, but Monica wanted youth to be able to grow non-technical skills as well. The summer of 2016, after graduating high school, I flew off to San Francisco to help other youth like me start down the same path. Then, I flew off to Austin, TX to do the same. It was a highly rewarding experience, and I grew my second family as well as learned how to facilitate discussions and workshops. Since that year, I've been volunteering with Maven Youth every single summer to help run the camps that gave me my start.
+        <br><br>
+        TBC...
+      </p>
+    </div>
+    
+    <div class="parallax-3"></div>
+    
+    <div id="footerblurb">
+      <div id="footerblurb-inner">
+        <div class="column">
+          <h2><a href="#li-top">Home</a></h2>
+          <pre>
+          <a href="#li-intro">Intro</a>
+          <a href="#li-story">My Story</a>
+          </pre>
+        </div>
+        <div class="column">
+          <h2><a href="expertise.html">Expertise</a></h2>
+          <pre>
+          <a href="expertise.html">Classes</a>
+          <a href="expertise.html">Resume</a>
+          </pre>
+        </div>
+        <div class="column">
+          <h2><a href="projects.html">Projects</a></h2>
+          <pre>
+          <a href="projects.html">School</a>
+          <a href="projects.html">Teaching</a>
+          <a href="projects.html">Maven Youth</a>
+          <a href="projects.html">Fun</a>
+          </pre>
+        </div>
+        <div class="column">
+          <h2><a href="contact.html">Contact Me</a></h2>
+          <pre>
+          <a href="contact.html">GitHub</a>
+          <a href="contact.html">LinkedIn</a>
+          </pre>
+        </div>
+        <div class="clr"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>
