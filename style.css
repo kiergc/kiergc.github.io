@@ -113,7 +113,7 @@ h1 {
   top: 370px;
   left: 830px;
   font-size: 30px;
-  text-shadow: 2px 2px 5px black
+  text-shadow: 2px 2px 5px black;
 }
 
 .menu {
@@ -141,7 +141,6 @@ h1 {
 #name_title a {
   color: #696969;
 }
-
 
 .menu a {
   float: left;
@@ -235,6 +234,4 @@ a {
   background-color: #D3D3D3;
   margin: 25px 100px 25px;
 }
-
-/* expertise.html specific styling */
 
